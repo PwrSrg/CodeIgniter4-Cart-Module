@@ -19,13 +19,21 @@
 This fork was created for anyone that wants the ability to update a cart item's name property.
 
 ## Installation:
- - Install via composer `composer require PwrSrg/CodeIgniter4-Cart-Module`
+ - Install via composer:
+ ```shell
+composer require pwrsrg/codeigniter4-cart-module
+composer install
+``` 
+
+
  - Add it to the `$psr4` array in `app/Config/Autoload.php`:
  ```php
 $psr4 = [
-    'CodeIgniterCart' => ROOTPATH . 'vendor/PwrSrg/CodeIgniter4-Cart-Module/src'
-
     // OTHER PSR4 ENTRIES
+	...
+	
+    // CodeIgniter4 Cart Module
+    'CodeIgniterCart' => ROOTPATH . 'vendor/pwrsrg/codeigniter4-cart-module/src'
 ];
 ``` 
   
