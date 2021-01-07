@@ -16,10 +16,10 @@
 > just the same.
 
 ## NOTES:
-This fork was created for anyone that wants the ability to update a cart item's name property
+This fork was created for anyone that wants the ability to update a cart item's name property.
 
 ## Installation:
- - Install via composer `composer install PwrSrg/CodeIgniter4-Cart-Module`
+ - Install via composer `composer require PwrSrg/CodeIgniter4-Cart-Module`
  - Add it to the `$psr4` array in `app/Config/Autoload.php`:
  ```php
 $psr4 = [
@@ -69,7 +69,7 @@ $cart->contents();
 ## License:
  MIT License
 
-Copyright (c) 2019 Jason Napolitano
+Copyright (c) 2021 Sergio Vazquez II
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

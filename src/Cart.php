@@ -1,12 +1,12 @@
-<?php namespace CodeIgniterCart;
+<?php namespace CodeIgniter4Cart;
 
 /**
 * The Cart class is a basic port of the CodeIgniter 3 cart module for CodeIgniter 4.
 *
-* @package    CodeIgniterCart
+* @package    CodeIgniter4Cart
 * @copyright  Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
 * @copyright  Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
-* @link       https://github.com/jason-napolitano/CodeIgniter4-Cart-Module
+* @link       https://github.com/PwrSrg/CodeIgniter4-Cart-Module
 * @link       https://codeigniter.com/user_guide/libraries/cart.html
 * @license    http://opensource.org/licenses/MIT
 * @author     EllisLab Dev Team
@@ -292,7 +292,7 @@ class Cart
             $items[ 'price' ] = (float)$items[ 'price' ];
         }
 
-        // product id & name shouldn't be changed
+        // product id shouldn't be changed
         foreach ( array_diff($keys, [ 'id', 'name' ]) as $key ) {
             $this->cartContents[ $items[ 'rowid' ] ][ $key ] = $items[ $key ];
         }
