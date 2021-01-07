@@ -293,7 +293,7 @@ class Cart
         }
 
         // product id shouldn't be changed
-        foreach ( array_diff($keys, [ 'id', 'name' ]) as $key ) {
+        foreach ( array_diff($keys, [ 'id' ]) as $key ) {
             $this->cartContents[ $items[ 'rowid' ] ][ $key ] = $items[ $key ];
         }
 

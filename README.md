@@ -22,7 +22,7 @@ This fork was created for anyone that wants the ability to update a cart item's 
  - Install via composer:
  ```shell
 composer require pwrsrg/codeigniter4-cart-module
-composer install
+composer update
 ``` 
 
 
