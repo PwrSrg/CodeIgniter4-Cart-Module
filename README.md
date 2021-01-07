@@ -15,12 +15,15 @@
 > Please take note that there are no tests for this package since it is just a port from an existing Codeigniter library and works 
 > just the same.
 
+## NOTES:
+This fork was created for anyone that wants the ability to update a cart item's name property
+
 ## Installation:
- - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
+ - Install via composer `composer install PwrSrg/CodeIgniter4-Cart-Module`
  - Add it to the `$psr4` array in `app/Config/Autoload.php`:
  ```php
 $psr4 = [
-    'CodeIgniterCart' => ROOTPATH . 'vendor/jason-napolitano/codeigniter4-cart-module/src'
+    'CodeIgniterCart' => ROOTPATH . 'vendor/PwrSrg/CodeIgniter4-Cart-Module/src'
 
     // OTHER PSR4 ENTRIES
 ];
