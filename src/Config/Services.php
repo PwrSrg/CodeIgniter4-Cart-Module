@@ -1,4 +1,4 @@
-<?php namespace CodeIgniterCart\Config;
+<?php namespace CodeIgniter4Cart\Config;
 
 use CodeIgniter\Config\Services as CoreServices;
 
@@ -17,7 +17,7 @@ require_once SYSTEMPATH . 'Config/Services.php';
  * method format you should use for your service methods. For more examples,
  * see the core Services file at system/Config/Services.php.
  *
- * @package CodeIgniterCart\Config
+ * @package CodeIgniter4Cart\Config
  */
 class Services extends CoreServices
 {
@@ -34,6 +34,6 @@ class Services extends CoreServices
         if ($getShared) {
             return static::getSharedInstance('cart');
         }
-        return new \CodeIgniterCart\Cart();
+        return new \CodeIgniter4Cart\Cart();
     }
 }
